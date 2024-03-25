@@ -22,6 +22,11 @@ int perkalian(int bil1, int bil2) {
     return bil1 * bil2;
 }
 
+int pembagian(int bil1, int bil2) {
+    return bil1 / bil2;
+}
+
+
 
 
 
