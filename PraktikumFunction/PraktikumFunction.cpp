@@ -63,6 +63,8 @@ int main() {
             cout << "Hasil pembagian = " << pembagian(a, b) << endl;
             system("pause");
             break;
+        case 5:
+            break;
         default:
             cout << "menu tidak tersedia silahkan pilih lagi" << endl;
             break;
