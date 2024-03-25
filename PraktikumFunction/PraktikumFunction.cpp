@@ -10,6 +10,9 @@ void input() {
     cin >> b;
 }
 
+int penjumlahan(int bil1, int bil2) {
+    return bil1 + bil2;
+}
 
 
 
