@@ -14,6 +14,10 @@ int penjumlahan(int bil1, int bil2) {
     return bil1 + bil2;
 }
 
+int pengurangan(int bil1, int bil2) {
+    return bil1 - bil2;
+}
+
 
 
 
