@@ -39,12 +39,18 @@ int main() {
         cout << "4.penmbagian" << endl;
         cout << "5.keluar" << endl;
         cout << "Masukkan menu yang ingin di pilih (1/2/3/4/5)";
+        cin >> pilihan;
 
         switch (pilihan)
         {
         case 1:
             input();
             cout << "Hasil penjumlahan = " << penjumlahan(a, b) << endl;
+            system("pause");
+            break;
+        case 2:
+            input();
+            cout << "Hasil pengurangan = " << pengurangan(a, b) << endl;
             system("pause");
             break;
         default:
