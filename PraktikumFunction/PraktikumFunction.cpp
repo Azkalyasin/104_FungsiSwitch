@@ -18,6 +18,11 @@ int pengurangan(int bil1, int bil2) {
     return bil1 - bil2;
 }
 
+int perkalian(int bil1, int bil2) {
+    return bil1 * bil2;
+}
+
+
 
 
 
