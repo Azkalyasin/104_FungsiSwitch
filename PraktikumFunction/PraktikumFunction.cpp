@@ -58,7 +58,13 @@ int main() {
             cout << "Hasil perkaliann = " << perkalian(a, b) << endl;
             system("pause");
             break;
+        case 4:
+            input();
+            cout << "Hasil pembagian = " << pembagian(a, b) << endl;
+            system("pause");
+            break;
         default:
+            cout << "menu tidak tersedia silahkan pilih lagi" << endl;
             break;
         }
     } while (true);
